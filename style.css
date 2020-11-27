@@ -1,0 +1,102 @@
+#pageprofil body {
+	background-color: #f6f5f5;
+	font-family: Courier;
+	color: rgb(50, 50, 50);
+	font-size: 17px, 
+}
+
+h1, h2, h3 {
+	font-family: Montserrat, sans-serif ; 
+	color: #070d59;
+}
+
+h1 {
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: lighter;
+	letter-spacing: 5px;
+	font-size: 22px;
+}
+
+a {
+	font-family: Montserrat, sans-serif;
+	text-decoration: none;
+	color: #070d59;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: black;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+
+.btn-blue{
+	background-color: #ee6f57;
+	padding: 10px 15px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.btn-blue:hover{
+	color: white;
+	background-color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+
